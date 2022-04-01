@@ -1,0 +1,276 @@
+
+  body {
+background-image: url("../images/blue.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+display: block;
+margin: 0;
+overflow:hidden;
+}
+
+.h1 {
+  position: relative;
+  font-family: "South Park Cyrillic";
+  font-size: 72px;
+  margin-top: 40px;
+  margin-left: 40px;
+  line-height: 100%;
+  letter-spacing: -2%;
+
+}
+
+.coll {
+  position: absolute;
+
+  right:20px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s 3s;
+ opacity: 0;
+transform: translateX(-50%);
+
+
+}
+
+
+
+.grusha {
+  margin-top:25px;
+  height: 137px;
+  width:84px;
+}
+
+.feather {
+    margin-top:25px;
+  height: 128px;
+  width: 85px;
+
+}
+.lemon {
+    margin-top:25px;
+  height:76px;
+  width: 73px;
+}
+.bird {
+    margin-top:25px;
+  height: 123px;
+  width: 81px;
+}
+
+
+
+.cloudtext3 {
+  position: absolute;
+  font-family: "South Park Cyrillic";
+  font-size: 24px;
+  text-align: center;
+  margin-top: 870px;
+  margin-left: 1720px;
+  z-index: 4;
+  letter-spacing: -3%;
+  color: black;
+  opacity: 0%
+
+}
+
+.yellowrect2 {
+  position: absolute;
+  margin-top: 855px;
+  margin-left: 1700px;
+  opacity:0%
+
+}
+.logo {
+  position: absolute;
+  margin-top: 800px;
+  margin-left: 40px;
+  width: 116px;
+}
+
+.cloudtext{
+  position: absolute;
+  font-family: "South Park Cyrillic";
+  font-size: 24px;
+  text-align: center;
+  margin-top: 160px;
+  margin-left: 70px;
+  line-height: 122%;
+  z-index:2
+  color: black;
+
+}
+
+.cloud1{
+  position:absolute;
+  margin-top: 317px;
+  margin-left: 1274px;
+  animation: cloud1moving 6s alternate-reverse infinite;
+  animation-timing-function: cubic-bezier(0,.02,.98,1);
+  z-index:2
+
+}
+
+.cloudtext2{
+  position: absolute;
+  font-family: "South Park Cyrillic";
+  font-size: 24px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 235px;
+  z-index: 4;
+  letter-spacing: -3%;
+  color: black;
+
+}
+.yellowrect1 {
+  position: relative;
+  margin-top: 16px;
+  margin-left: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+}
+
+.white1 {
+  position: absolute;
+  margin-top: 472px;
+  margin-left:747px;
+
+}
+.white2 {
+  position: absolute;
+  margin-top: 472px;
+  margin-left:900px;
+
+
+}
+.white3 {
+  position: absolute;
+  margin-top: 472px;
+  margin-left:1005px;
+
+
+}
+
+
+.egg {
+
+  position:absolute;
+  margin-top: 232px;
+  margin-left: 734px;
+  width: 451px;
+  z-index:1;
+
+}
+.egg:hover {
+    animation:  eggshake 1.2s ease-in-out infinite;
+  }
+.dragonborn {
+  position:absolute;
+  margin-top:5px;
+  margin-left: 400px;
+  width: 200px;
+}
+.part1 {
+  position: absolute;
+  margin-left: 350px;
+  margin-top:110px;
+  z-index: 3;
+  animation: eggshelf1 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+
+
+}
+.dragon1 {
+  position:absolute;
+  margin-top:330px;
+  margin-left:420px;
+  z-index: 1;
+}
+
+.dragon2{
+  width: 600px;
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 310px;
+  z-index: 1;
+}
+
+.hidden{
+  display: none;
+}
+.active{
+  display: block;
+}
+
+.dragon3{
+  width: 800px;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 200px;
+  z-index: 1;
+}
+
+.part2 {
+  position: absolute;
+margin-top:460px;
+margin-left:350px;
+z-index: 3;
+animation: eggshelf2 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+
+
+}
+
+.cloud22 {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 262px;
+  z-index: 0;
+  animation: cloud2moving 10s alternate-reverse infinite;
+  animation-timing-function: cubic-bezier(0,.02,.98,1);
+
+animation-timing-function: linear;
+
+}
+
+.cloud23 {
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 237px;
+  z-index: 0;
+  animation: cloud2moving 10s alternate-reverse infinite;
+  animation-timing-function: cubic-bezier(0,.02,.98,1);
+
+animation-timing-function: linear;
+}
+
+.button {
+  right:20px;
+  transition: 0.2s 5s;
+ opacity: 0;
+transform: translateX(-50%);
+
+}
+
+.yellowrect3 {
+  position: absolute;
+  margin-top: 800px;
+  right: 40px;
+  width: 116px;
+}
+.cloudtext2{
+  position: absolute;
+  font-family: "South Park Cyrillic";
+  font-size: 24px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 235px;
+  z-index: 4;
+  letter-spacing: -3%;
+  color: black;
+}
